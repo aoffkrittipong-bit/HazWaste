@@ -10,7 +10,7 @@ import { Calendar } from './ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
 import { CalendarIcon, Camera, Sparkles, DollarSign, ArrowLeft, Zap } from 'lucide-react';
 import { format } from 'date-fns';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 const categories = [
   { id: 'food', name: 'Food & Dining', icon: '🍽️', color: 'bg-red-100 text-red-800' },
